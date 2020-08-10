@@ -1,0 +1,419 @@
+body {
+    margin: 0px auto;
+    width: 100%;
+    background-image: url(/image/background.jpg);
+    background-size: 100% 2000px;
+    background-repeat: repeat;
+}
+
+.heading { /*顶部导航栏*/
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-image: url(/image/background.jpg);
+    background-size: 100% 553px;
+    background-repeat: no-repeat;
+}
+
+.heading > ul {
+    height: 200px;
+    width: 100%;
+    list-style-type: none;
+}
+
+.heading > ul > li {
+    float: left;
+    margin: 50px;
+}
+
+.heading ul li a {
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-left: 150px;
+}
+
+.heading ul li a:link {
+    color: blue;
+}
+
+.heading ul li a:hover {
+    color: green;
+}
+
+.openSide { /*展开*/
+    position: fixed;
+    z-index: 0;
+    margin: 1084px 0 0 97.9%;
+}
+
+.openSide img {
+    height: 90px;
+}
+
+.left-side { /*左侧导航栏css*/
+    position: fixed;
+    width: 20%;
+    height: 2350px;
+    /*background: #555555;*/
+    background-color: #292929;
+    margin: 20px 0 0 80%;
+    display: none;
+}
+
+#closeSide { /*关闭图标*/
+    position: absolute;
+    margin: 1060px 0 0 0;
+    width: 110px;
+    z-index: 2;
+}
+
+#navId {
+    list-style-type: none;
+    position: relative;
+    width: 89%;
+    margin: 50px 0px 0 80px;
+}
+
+#navId li {
+    border-bottom: 1px solid #424242;
+    color: white;
+    font-size: 65px;
+    font-weight: 300;
+    letter-spacing: 20px;
+    padding: 0px 0 0 50px;
+    line-height: 2.5;
+}
+
+#secendNav { /*修改新闻的二级菜单*/
+    display: none;
+}
+
+#secendNav li {
+    height: 140px;
+    border-bottom: 1px solid #424242;
+    color: white;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 20px;
+    padding: 2px 0 0 50px;
+    line-height: 2.4;
+    list-style-type: none;
+}
+
+.contentBody { /*新闻主体*/
+    width: 80%;
+    margin: 280px 0 0 0px;
+    clear: left;
+}
+
+.news {
+    width: 100%;
+}
+
+.newTitle {
+    padding: 17px 0 0 400px;
+    font-size: 90px;
+    color: currentColor;
+    font-weight: 600;
+}
+
+.newsSource {
+    padding: 0px 0px 0px 400px;
+    font-size: 60px;
+    height: 25px;
+}
+
+.newsDate {
+    padding: 0px 0px 0px 400px;
+    font-size: 60px;
+}
+
+.newsContent {
+    font-size: 60px;
+    width: 80%;
+    padding-left: 400px;
+    line-height: 1.5;
+    letter-spacing: 20px;
+    /* text-indent: unset; */
+    /*text-decoration: underline;*/
+}
+
+.editNews {
+    margin-left: 280px;
+    width: 90px;
+    height: 90px;
+}
+
+.editNews:visited {
+    background: darkgray;
+}
+
+.hanLp {
+    width: 100%;
+    margin: 130px 0 0 400px;
+}
+
+.keyWord {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.keyWord div {
+    width: 99.8%;
+    /*border: 2px solid royalblue;*/
+    height: 150px;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    line-height: 2.1;
+    color: red;
+}
+
+.keyWord table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.keyWord tbody tr td {
+    border: 2px solid royalblue;
+    height: 180px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.summary {
+    width: 80%;
+    padding-top: 230px;
+}
+
+.summary div {
+    width: 99.8%;
+    /*border: 2px solid royalblue;*/
+    height: 150px;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    line-height: 2.1;
+    color: red;
+}
+
+.summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.summary td {
+    border: 2px solid royalblue;
+    height: 180px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.phrase {
+    width: 80%;
+    padding-top: 230px;
+}
+
+.phrase div {
+    width: 99.8%;
+    /*border: 2px solid royalblue;*/
+    height: 150px;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    letter-spacing: 20px;
+    line-height: 2.1;
+    color: red;
+}
+
+.phrase table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.phrase td {
+    border: 2px solid royalblue;
+    height: 180px;
+    text-align: center;
+    font-size: 60px;
+}
+
+/*接下来为修改时的css*/
+.editNewsTitle {
+    margin: 0 0 0 400px;
+}
+
+.editAfterTitle {
+    border: 2px solid red;
+    width: 87%;
+    resize: none;
+    margin-top: 17px;
+    font-size: 90px;
+    color: currentColor;
+    font-weight: 600;
+}
+
+.editTitleConfirm {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: cornflowerblue;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 36%
+}
+
+.editTitleConfirm:hover {
+    background: blue;
+}
+
+.editTitleCancle {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: darkgray;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 20px;
+}
+
+/*修改来源*/
+.editNewsSource {
+    margin: 0 0 0 400px;
+}
+
+.editAfterSource {
+    border: 2px solid red;
+    width: 87%;
+    margin-top: 17px;
+    font-size: 60px;
+    color: currentColor;
+}
+
+.editSourceConfirm {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: cornflowerblue;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 36%
+}
+
+.editSourceConfirm:hover {
+    background: blue;
+}
+
+.editSourceCancle {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: darkgray;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 20px;
+}
+
+/*修改日期*/
+.editNewsDate {
+    margin: 0 0 0 400px;
+}
+
+.editAfterDate {
+    border: 2px solid red;
+    width: 87%;
+    margin-top: 17px;
+    font-size: 60px;
+    color: currentColor;
+    z-index: 2; /*之后可以试下input type=date*/
+}
+
+.editDateConfirm {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: cornflowerblue;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 36%
+}
+
+.editDateConfirm:hover {
+    background: blue;
+}
+
+.editDateCancle {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: darkgray;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 20px;
+}
+
+.editNewsContent {
+    margin: 0 0 0 400px;
+}
+
+.editAfterContent {
+    border: 2px solid red;
+    width: 87%;
+    resize: none;
+    margin-top: 17px;
+    font-size: 60px;
+    line-height: 1.5;
+    letter-spacing: 20px;
+    color: currentColor;
+}
+
+.editContentConfirm {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: cornflowerblue;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 36%
+}
+
+.editContentConfirm:hover {
+    background: blue;
+}
+
+.editContentCancle {
+    width: 300px;
+    height: 100px;
+    border-style: none;
+    background: darkgray;
+    font-size: 60px;
+    letter-spacing: 30px;
+    color: aliceblue;
+    border-radius: 25px;
+    margin: 4px 0 0 20px;
+}
+
+/*可视化*/
+#main{
+    width: 100%;
+    height: 3000px;
+}

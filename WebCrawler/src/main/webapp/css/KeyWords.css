@@ -1,0 +1,176 @@
+body {
+    margin: 0px auto;
+    width: 100%;
+    background-image: url(/image/background.jpg);
+    background-size: 100% 2000px;
+    background-repeat: repeat;
+}
+
+.heading {
+    position: fixed;
+    z-index: 999;
+    background-image: url(/image/background.jpg);
+    background-size: 100% 553px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 10%;
+}
+
+.heading > ul {
+    height: 200px;
+    width: 100%;
+    list-style-type: none;
+}
+
+.heading > ul > li {
+    float: left;
+    margin: 50px;
+}
+
+.heading ul li a {
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-left: 300px;
+}
+
+.heading ul li input {
+    border-radius: 25px;
+    border-style: none;
+    height: 50%;
+    color: darkmagenta;
+    background: deepskyblue;
+    margin: 0 0 0 750%;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.contentBody {
+    width: 100%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 0px 0 25%;
+    width: 50%;
+    text-align: center;
+}
+
+table, td {
+    border: 1px solid black;
+    height: 166px;
+}
+
+thead { /*表头的背景颜色*/
+    background: yellowgreen;
+    font-size: 70px;
+    font-weight: 600;
+    color: green;
+}
+
+table, tbody tr:nth-child(odd) { /*奇数行背景颜色  要加上tbody否则头部颜色会变*/
+    background: #F5FFFA;
+}
+
+table, tbody tr:nth-child(even) { /*偶数行背景颜色*/
+    background: #B0C4DE;
+}
+
+tbody tr:hover {
+    background: #fbfb59; /*鼠标放上去背景变黄色*/
+}
+
+.updateKeyWords {
+    width: 30%;
+    height: 80%;
+    border-radius: 20px;
+    border-style: none;
+    background-color: cornflowerblue;
+}
+
+.deleteKeyWords {
+    width: 30%;
+    height: 80%;
+    border-radius: 20px;
+    border-style: none;
+    background-color: red;
+}
+
+/*点击修改时的样式*/
+.inputKeyWords {
+    height: 130px;
+    width: 70%;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+.confirmUpdate {
+    height: 127px;
+    width: 10%;
+    border-style: none;
+    border-radius: 0;
+    background: deepskyblue;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 24px;
+}
+
+.cancleUpdate {
+    height: 127px;
+    width: 10%;
+    border-style: none;
+    background: #e2ddde;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 24px;
+}
+
+/*添加关键词弹窗*/
+.addKeyWordWindows {
+    background: white;
+    position: absolute;
+    margin: -34% 0 0px 57%;
+    height: 20%;
+    width: 25%;
+    border: 2px solid darkgrey;
+}
+
+.inputAddKeyWords {
+    text-align: center;
+    width: 80%;
+    height: 40%;
+    margin: 1% 0 0 10%;
+    font-size: 50px;
+    letter-spacing: 20px
+}
+
+.addKeyWordsConfirm {
+    height: 30%;
+    width: 20%;
+    border-style: none;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-weight: 400;
+    margin: 3% 0 0 25%;
+}
+
+.addKeyWordsCancle {
+    height: 30%;
+    width: 20%;
+    border-style: none;
+    border-radius: 20px;
+    background: beige;
+    color: black;
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-weight: 400;
+    margin: 3% 0 0 12%;
+}

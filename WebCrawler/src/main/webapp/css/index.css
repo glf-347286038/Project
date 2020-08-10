@@ -1,0 +1,241 @@
+body {
+    margin: 0px auto;
+}
+
+.heading {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    font-size: 90px;
+    font-style: italic;
+    color: snow;
+    line-height: 2.1;
+}
+
+.nav ul {
+    width: auto;
+    list-style-type: none;
+    margin-left: 4%;
+    clear: both;
+    /*padding: 0;*/
+}
+
+.nav li {
+    float: left; /*使li内容横向浮动 横向排列*/
+    margin-right: 1%;
+    line-height: 102px;
+    color: #666;
+    /*position: relative;*/
+}
+
+.search {
+    position: relative;
+    height: 100px;
+    width: 650px;
+    border: 1px solid #000;
+}
+
+.search img {
+    position: absolute;
+    width: 13%;
+    height: 80%;
+    right: 0;
+    top: 8px;
+    cursor: pointer;
+}
+
+.search img:hover { /*鼠标移至搜索按钮改变颜色*/
+    background-color: dodgerblue;
+}
+
+.search input {
+    height: 86px;
+    width: 575px;
+    text-indent: 25px;
+    border: none;
+    outline: none;
+    margin: 7px 0 0 3px;
+}
+
+.add {
+    position: absolute;
+    margin-left: 1800px;
+    width: 500px;
+}
+
+.add img {
+    position: absolute;
+    width: 20%;
+    height: 92%;
+    right: 160px; /*与右边的额距离*/
+    top: 9px;
+    cursor: pointer;
+}
+
+.add img:hover {
+    background-color: chartreuse;
+}
+
+body {
+    margin: 0px auto;
+}
+
+.contentBody {
+    width: 90%;
+    margin: 197px 255px 0px;
+    z-index: 2;
+    height: 1851px;
+}
+
+.newsTable {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+    border: 1px solid black;
+    height: 166px;
+}
+
+thead { /*表头的背景颜色*/
+    background: yellowgreen;
+    font-size: 70px;
+    font-weight: 600;
+    color: green;
+}
+
+table, tbody tr:nth-child(odd) { /*奇数行背景颜色  要加上tbody否则头部颜色会变*/
+    background: #F5FFFA;
+}
+
+table tr:nth-child(even) { /*偶数行背景颜色*/
+    background: #B0C4DE;
+}
+
+tbody tr:hover {
+    background: #fbfb59; /*鼠标放上去背景变黄色*/
+}
+
+.lookButton {
+    height: 80px;
+    width: 100px;
+}
+
+.lookButton:visited {
+    /*background: darkturquoise;*/
+    background: #00FF7F
+}
+
+.deleteButton {
+    height: 100px;
+    width: 90px;
+}
+
+#buttons {
+    /*background-color: cadetblue;*/
+    background: cadetblue;
+    width: 90%;
+    height: 175px;
+    margin: 0px 254px 0px;
+    font-size: 65px;
+    z-index: 3;
+    border: 1px solid black;
+}
+
+#previousButton {
+    height: 110px;
+    position: absolute;
+    margin: 33px 0 0 260px
+}
+
+#nextButton {
+    height: 110px;
+    position: absolute;
+    margin: 33px 0 0 585px;
+}
+
+#currentPageButton {
+    position: absolute;
+    margin: 15px 0px 0px 385px;
+    width: 140px;
+    height: 140px;
+    border-radius: 23px;
+    border-style: none;
+    background: left;
+    font-size: 86px;
+    font-weight: 600;
+    background-color: #6666FF;
+    color: white;
+}
+
+.text01 {
+    position: absolute;
+    margin: 49px 0 0 800px;
+}
+
+#inputJumpPage {
+    width: 160px;
+    height: 107px;
+    text-align: center;
+    font-size: 60px;
+    margin: 36px 0 0 953px;
+    border-radius: 16px;
+    border: 2px solid black;
+    color: red;
+}
+
+#inputJumpPage:hover {
+    background-color: #99CCFF;
+    color: deeppink;
+}
+
+.text02 {
+    position: absolute;
+    margin: 46px 10px 11px 18px;
+}
+
+#jumpButton {
+    position: absolute;
+    height: 107px;
+    width: 160px;
+    margin: 34px 0 0 98px;
+    border-radius: 32px;
+    background-color: lightsteelblue;
+    font-size: 56px;
+    border-style: none;
+}
+
+#jumpButton:hover {
+    background-color: forestgreen;
+    color: white;
+}
+
+#rowTotal {
+    position: absolute;
+    margin: 38px 0 0 350px;
+    height: 100px;
+    width: 500px;
+    font-size: 66px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #00FF7F;
+    font-weight: 400;
+    color: indigo;
+}
+
+.footing {
+    width: 100%;
+    height: 226px;
+    background-color: black;
+    margin: 0px 10px 0px 0;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    line-height: 3.8;
+}
